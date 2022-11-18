@@ -1,4 +1,4 @@
 # add these lines to crontab with sudo crontab -e
 
-@reboot sleep 10  && /usr/bin/python3 /home/ubuntu/tb4rpi/utils/cleanlifelog.py
+@reboot sleep 10  && /usr/bin/python3 /home/ubuntu/tb4rpi/plib/cleanlifelog.py
 @reboot sleep 15  && /home/ubuntu/tb4rpi/utils/nohup_loglife.sh

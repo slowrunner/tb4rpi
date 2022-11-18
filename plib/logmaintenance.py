@@ -14,18 +14,15 @@ Documentation:
 import sys
 import logging
 
-# attach to life logger
-logger = logging.getLogger('lifelog')
-
 # create logmaintenance logger
-# logger = logging.getLogger(__name__)
-# logger.setLevel(logging.INFO)
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
 
-# loghandler = logging.FileHandler('/home/ubuntu/tb4rpi/life.log')
+loghandler = logging.FileHandler('/home/ubuntu/tb4rpi/life.log')
 
-# logformatter = logging.Formatter('%(asctime)s|[%(filename)s.%(funcName)s]%(message)s',"%Y-%m-%d %H:%M")
-# loghandler.setFormatter(logformatter)
-# logger.addHandler(loghandler)
+logformatter = logging.Formatter('%(asctime)s|%(filename)s.%(funcName)s %(message)s',"%Y-%m-%d %H:%M")
+loghandler.setFormatter(logformatter)
+logger.addHandler(loghandler)
 
 
 from time import sleep
