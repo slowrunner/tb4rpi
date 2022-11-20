@@ -15,3 +15,5 @@ echo "Sessions (boot): " `(grep -c "\- boot \-" $fn)`
 booted=`(grep -c "\- boot \-" $fn)`
 aveSession=`(echo "scale=1; ($totalLife / $booted)" | bc -l)`
 echo "Average Session: " $aveSession "hrs"
+DockingSuccessCnt=`(grep "Docking: success" $fn | wc -l)`
+echo "Successful Dockings Logged: " $DockingSuccessCnt
