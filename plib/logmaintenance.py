@@ -20,7 +20,7 @@ logger.setLevel(logging.INFO)
 
 loghandler = logging.FileHandler('/home/ubuntu/tb4rpi/life.log')
 
-logformatter = logging.Formatter('%(asctime)s|%(filename)s.%(funcName)s %(message)s',"%Y-%m-%d %H:%M")
+logformatter = logging.Formatter('%(asctime)s|%(filename)s| %(message)s',"%Y-%m-%d %H:%M")
 loghandler.setFormatter(logformatter)
 logger.addHandler(loghandler)
 

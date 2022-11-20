@@ -83,7 +83,7 @@ class digitalEntity():
         time.sleep(tSleep)
         i+=0.05  # every three minutes is .05 hours
         if debugLevel: print("%s.dEmain execution %.2f" % (myname,i))
-        logger.info('%s.dEmain execution: %.2f',myname, i )
+        logger.info('%s.dEmain| execution: %.2f',myname, i )
 
 
     if debugLevel: print("dEmain end reached")
