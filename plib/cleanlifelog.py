@@ -40,7 +40,7 @@ last = -1
 print("lines: {}".format(lines))
 print("lastline: {}".format(lineList[last]))
 bootlogline = "----- boot -----"
-executionlogline = "execution:"
+executionlogline = " execution:"
 
 if (clean_previous_session == True):
     # Find last boot log line

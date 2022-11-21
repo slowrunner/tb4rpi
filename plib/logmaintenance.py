@@ -13,19 +13,31 @@ Documentation:
 
 import sys
 import logging
+from pytz import timezone, utc
+from datetime import datetime
+from time import sleep
+
 
 # create logmaintenance logger
+def customTime(*args):
+    utc_dt = utc.localize(datetime.utcnow())
+    my_tz = timezone("US/Eastern")
+    converted = utc_dt.astimezone(my_tz)
+    return converted.timetuple()
+
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 loghandler = logging.FileHandler('/home/ubuntu/tb4rpi/life.log')
 
 logformatter = logging.Formatter('%(asctime)s|%(filename)s| %(message)s',"%Y-%m-%d %H:%M")
+
+logging.Formatter.converter = customTime
+
 loghandler.setFormatter(logformatter)
 logger.addHandler(loghandler)
 
 
-from time import sleep
 
 def main():
     args = sys.argv

@@ -3,10 +3,13 @@
 # loglife.py   digital entity to log each three minutes of life
 #              to ~/tb4rpi/life.log
 #
-# with sudo crontab -e
+# REQUIRES:
+#   sudo pip3 install pytz
+#
+#   with sudo crontab -e
 #      @reboot /home/ubuntu/tb4rpi/nohup_loglife.py
-# touch /home/ubuntu/tb4rpi/life.log
-# chmod 777 /home/ubuntu/tb4rpi/life.log
+#   touch /home/ubuntu/tb4rpi/life.log
+#   chmod 777 /home/ubuntu/tb4rpi/life.log
 #
 
 import time
@@ -17,11 +20,23 @@ import logging
 import traceback
 import signal
 
+from pytz import timezone, utc
+from datetime import datetime
+
+
+def customTime(*args):
+    utc_dt = utc.localize(datetime.utcnow())
+    my_tz = timezone("US/Eastern")
+    converted = utc_dt.astimezone(my_tz)
+    return converted.timetuple()
+
+
 # create logger
 logger = logging.getLogger('lifelog')
 logger.setLevel(logging.INFO)
 loghandler = logging.FileHandler('/home/ubuntu/tb4rpi/life.log')
 logformatter = logging.Formatter('%(asctime)s|%(message)s',"%Y-%m-%d %H:%M")
+logging.Formatter.converter = customTime
 loghandler.setFormatter(logformatter)
 logger.addHandler(loghandler)
 

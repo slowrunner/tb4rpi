@@ -6,6 +6,7 @@
 #
 echo "TOTAL Turtlebot 4 Lite LIFE STATISTICS"
 echo "(Cleaning life.log first)"
+/home/ubuntu/tb4rpi/plib/cleanlifelog.py -p
 /home/ubuntu/tb4rpi/plib/cleanlifelog.py
 echo " "
 fn="/home/ubuntu/tb4rpi/life.log"
