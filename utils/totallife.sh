@@ -10,7 +10,7 @@ echo "(Cleaning life.log first)"
 echo " "
 fn="/home/ubuntu/tb4rpi/life.log"
 totalLife=`(awk -F':' '{sum+=$3}END{print sum;}' $fn)`
-echo -e "\n\n*** TOTAL Turtlebot 4 Lite LIFE STATISTICS ***"
+echo -e "\n\n*** TOTAL WaLI Turtlebot 4 Lite LIFE STATISTICS ***"
 echo "Total Life: " $totalLife "hrs (since Nov 17, 2022)"
 echo "Sessions (boot): " `(grep -c "\- boot \-" $fn)`
 booted=`(grep -c "\- boot \-" $fn)`
