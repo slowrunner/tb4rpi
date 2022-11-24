@@ -42,6 +42,16 @@ print("lastline: {}".format(lineList[last]))
 bootlogline = "----- boot -----"
 executionlogline = " execution:"
 
+# Clean any null chars from bad shutdown
+lineListIdx = 0
+for line in lineList:
+  if '\x00' in line:
+    cline = line.replace('\x00', '')
+    print("Removed null chars from |{}|".format(line))
+    lineList[lineListIdx] = cline
+    changed = True
+  lineListIdx +=1
+
 if (clean_previous_session == True):
     # Find last boot log line
     while (bootlogline not in lineList[lineIdx]):
