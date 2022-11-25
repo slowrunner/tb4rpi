@@ -54,3 +54,4 @@ CATKIN_IGNORE
 # My ignores
 life.log
 life.log.bak
+*.log
