@@ -1,0 +1,109 @@
+2022-11-18 03:22|------------ boot ------------
+2022-11-18 03:49|lifelogger.dEmain| execution: 0.45
+2022-11-18 03:50|logmaintenance.py| ** life logging setup in crontab **
+2022-11-18 03:51|logmaintenance.py| ** hostname changed from ubuntu to tb4rpi **
+2022-11-18 03:51|logmaintenance.py| ** password changed from turtlebot4 **
+2022-11-18 03:53|------------ boot ------------
+2022-11-18 04:32|logmaintenance.py| ** first update/upgrade run **
+2022-11-18 04:50|lifelogger.dEmain| execution: 0.95
+2022-11-18 04:54|------------ boot ------------
+2022-11-19 02:49|------------ boot ------------
+2022-11-19 03:28|lifelogger.dEmain| execution: 0.65
+2022-11-19 13:44|------------ boot ------------
+2022-11-20 01:47|lifelogger.dEmain| execution: 12.05
+2022-11-20 13:52|------------ boot ------------
+2022-11-20 15:53|lifelogger.dEmain| execution: 2.00
+2022-11-20 15:56|------------ boot ------------
+2022-11-20 21:11|logmaintenance.py| ** Docking: success **
+2022-11-20 23:11|logmaintenance.py| ** Undocking: success **
+2022-11-21 00:12|logmaintenance.py| ** Docking: success **
+2022-11-21 02:12|logmaintenance.py| ** Undocking: success **
+2022-11-21 04:12|logmaintenance.py| ** Docking: success **
+2022-11-21 07:11|logmaintenance.py| ** in local time **
+2022-11-21 12:18|lifelogger.dEmain| execution: 20.35
+2022-11-21 07:21|------------ boot ------------
+2022-11-21 07:32|logmaintenance.py| ** changing life.log to Eastern TZ **
+2022-11-21 07:45|lifelogger.dEmain| execution: 0.25
+2022-11-21 08:07|------------ boot ------------
+2022-11-21 08:10|lifelogger.dEmain| execution: 0.25
+2022-11-21 08:11|logmaintenance.py| ** Manual Docking: success **
+2022-11-21 08:13|------------ boot ------------
+2022-11-21 08:23|logmaintenance.py| ** Undocking: success **
+2022-11-21 09:35|logmaintenance.py| ** Create3 webserver lost its mind **
+2022-11-21 09:43|logmaintenance.py| ** Goal Docking: success **
+2022-11-21 15:34|logmaintenance.py| ** Undocking: success **
+2022-11-21 16:35|logmaintenance.py| ** Docking: success **
+2022-11-21 18:35|logmaintenance.py| ** Undocking: success **
+2022-11-21 19:36|logmaintenance.py| ** Docking: success **
+2022-11-21 21:36|logmaintenance.py| ** Undocking: success **
+2022-11-21 22:37|logmaintenance.py| ** Docking: success **
+2022-11-22 00:02|lifelogger.dEmain| execution: 15.80
+2022-11-22 05:54|------------ boot ------------
+2022-11-22 06:58|logmaintenance.py| ** Undocking: success **
+2022-11-22 06:59|logmaintenance.py| ** apt update/upgrade performed **
+2022-11-22 08:28|logmaintenance.py| ** Docking: success **
+2022-11-22 08:30|logmaintenance.py| ** 90 min playtime took battery down to 35% **
+2022-11-22 10:29|logmaintenance.py| ** Undocking: success **
+2022-11-22 10:40|logmaintenance.py| ** Docking: success **
+2022-11-22 11:14|logmaintenance.py| ** First WaLI node action goal Undocking: success **
+2022-11-22 11:15|logmaintenance.py| ** Docking: success **
+2022-11-22 11:27|logmaintenance.py| ** Undocking: success **
+2022-11-22 11:27|logmaintenance.py| ** Docking: success **
+2022-11-22 11:40|logmaintenance.py| ** Docking: success **
+2022-11-22 11:42|logmaintenance.py| ** WaLI node action goal Undocking: success **
+2022-11-22 11:43|logmaintenance.py| ** Docking: success **
+2022-11-22 11:57|lifelogger.dEmain| execution: 6.05
+2022-11-22 12:14|------------ boot ------------
+2022-11-22 13:11|logmaintenance.py| ** Undocking: success **
+2022-11-22 14:41|logmaintenance.py| ** Docking: success **
+2022-11-22 17:42|logmaintenance.py| ** Undocking: success **
+2022-11-22 19:12|logmaintenance.py| ** Docking: success **
+2022-11-22 22:11|lifelogger.dEmain| execution: 9.95
+2022-11-22 22:12|logmaintenance.py| ** Undocking: success **
+2022-11-22 22:13|logmaintenance.py| ** Off for the night **
+2022-11-23 07:27|------------ boot ------------
+2022-11-23 11:17|logmaintenance.py| ** WaLI Undock: success **
+2022-11-23 21:03|lifelogger.dEmain| execution: 13.60
+2022-11-23 22:03|------------ boot ------------
+2022-11-24 06:58|wali_node.py| WaLI node started
+2022-11-24 06:59|wali_node.py| ** WaLI Undocking: success at battery 99% **
+2022-11-24 08:42|wali_node.py| ** WaLi Docking: success at battery 24% **
+2022-11-26 09:14|wali_node.py| ** WaLI node started **
+2022-11-26 09:22|wali_node.py| ** WaLI Undocking: success at battery 100% **
+2022-11-24 14:30|lifelogger.dEmain| execution: 16.45
+022-11-24 11:04|wali_node.py| ** WaLI node started **
+2022-11-24 12:08|wali_node.py| ** WaLI Undocking: success at battery 96% **
+2022-11-24 13:50|wali_node.py| ** WaLi Docking: failed **
+2022-11-24 14:37|------------ boot ------------
+2022-11-24 14:37|wali_node.py| ** WaLI node started **
+2022-11-24 16:30|wali_node.py| ** WaLI Undocking: success at battery 96% **
+2022-11-24 18:05|wali_node.py| ** WaLI Docking: success at battery 24% **
+2022-11-24 21:23|wali_node.py| ** WaLI Undocking: success at battery 96% **
+2022-11-24 23:00|wali_node.py| ** WaLI Docking: success at battery 24% **
+2022-11-25 07:06|wali_node.py| ** WaLI node started **
+2022-11-25 07:07|wali_node.py| ** WaLI Undocking: success at battery 96% **
+2022-11-25 08:24|wali_node.py| ** WaLI node started **
+2022-11-25 08:54|wali_node.py| ** WaLI Docking: success at battery 24% **
+2022-11-25 11:47|wali_node.py| ** WaLI Undocking: success at battery 96% **
+2022-11-25 13:31|wali_node.py| ** WaLI Docking: success at battery 24% **
+2022-11-25 19:17|logmaintenance.py| ** both rpi and remote battery_state subscribers lost topics after a few hours **
+2022-11-25 17:36|wali_node.py| ** WaLI Undocking: success at battery 96% **
+2022-11-25 19:21|wali_node.py| ** WaLI Docking: success at battery 24% **
+2022-11-25 22:19|wali_node.py| ** WaLI Undocking: success at battery 96% **
+2022-11-25 22:47|lifelogger.dEmain| execution: 32.15
+2022-11-26 08:31|------------ boot ------------
+2022-11-26 09:14|wali_node.py| ** WaLI node started on tb4desk **
+2022-11-26 09:22|wali_node.py| ** WaLI Undocking: success at battery 100% **
+2022-11-26 12:03|wali_node.py| ** WaLI Docking: success at battery 24% **
+2022-11-26 13:04|logmaintenance.py| ** Total TurtleBot4 RPi ROS nodes crashed or not started - (only draws 10.7W) **
+2022-11-26 13:04|lifelogger.dEmain| execution: 4.55
+2022-11-26 13:04|logmaintenance.py| ** rebooting **
+2022-11-26 13:06|------------ boot ------------
+2022-11-26 13:18|logmaintenance.py| ** stopped RPLIDAR Motor **
+2022-11-26 18:20|logmaintenance.py| ** Stopped WaLI at 13:00 **
+2022-11-26 18:19|wali_node.py| ** WaLI node started on tb4desk**
+2022-11-26 18:31|wali_node.py| ** WaLI Undocking: success at battery 100% **
+2022-11-26 19:06|logmaintenance.py| ** With RPLIDAR Motor stopped: 12.75W **
+2022-11-26 20:21|wali_node.py| ** WaLI Docking: success at battery 24% **
+2022-11-26 21:50|wali_node.py| ** WaLI node started on tb4desk**
+2022-11-26 23:13|lifelogger.dEmain| execution: 10.10
